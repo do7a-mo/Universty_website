@@ -1,0 +1,364 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.flex {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+/* start of navbar */
+.navbar {
+    background-color: #C8102E;/* Red color of University of Chicago */
+    padding: 20px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar ul li a:hover {
+    color: #444444;
+}
+
+/* end of navbar */
+
+/* start of Header */
+.header {
+    height: 90vh;
+    background: url(455.jpeg) no-repeat;
+    background-size: 100% 90vh;
+    padding: 20px;
+}
+
+.hh {
+    color: white;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.war {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.war h1 {
+    font-size: 62px;
+}
+
+.war p {
+    margin: 10px 0 40px;
+    font-size: 16px;
+    color: #fff;
+}
+
+body {
+    background-color: #f2f2f2; /* Light background for better contrast */
+}
+
+/* end of Header */
+
+/* start of products */
+.products {
+    margin-top: 130px;
+    padding: 20px;
+}
+
+.products h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.products .pro {
+    width: 25%;
+    border: 2px solid #888888;
+    border-radius: 7px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 70px;
+}
+
+.products .pro img {
+    width: 50%;
+    border-radius: 50%;
+    border: solid 3px #C8102E; /* Red border for images */
+}
+
+.products .pro p.title {
+    font-size: 30px;
+}
+
+.products .pro p.deasc {
+    font-size: 18px;
+    color: #808080;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+
+.products .pro a {
+    display: block;
+    background-color: #C8102E; /* Matching red color */
+    color: white;
+    width: 25%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+/* end of products */
+
+/* start of footer */
+.footer {
+    height: 110px;
+    background: #424242; /* Dark grey background */
+}
+
+.footerr {
+    color: white;
+    margin-left: 620px;
+}
+
+
+
+
+
+.hot {
+    color: white;
+    margin-left: 650px;
+}
+
+/* end of footer */
+
+.logo {
+    font-size: 2em;
+    color: #C8102E; /* Red logo color */
+    user-select: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 89%;
+    padding: 10px 100px;
+    background: #151C4F; /* Dark blue header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #29b3d8;
+    border-radius: 5px;
+    transform: scalex(0);
+    transition: transform .3s;
+}
+
+.navigation a:hover::after {
+    transform: scalex(1);
+}
+
+.navigation .login {
+    width: 85px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 50px;
+    transition: .5s;
+}
+
+.login a {
+    margin: 5px;
+}
+
+.navigation .login:hover {
+    background: #23272c;
+    color: #162938;
+}
+
+.imgs {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.icons {
+    color: white;
+    margin-left: 550px;
+}
+
+/* About Section */
+.About h1 {
+    text-align: center;
+    color: rgb(5, 4, 4);
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.About p {
+    margin-left: 130px;
+    margin-right: 130px; 
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.loc {
+    display: flex;
+    justify-content: center;
+}
+
+#pic {
+    margin-left: 90px;
+}
+
+.loc p {
+    margin-left: 10px; 
+}
+
+.loc_h2 {
+    color: rgb(5, 4, 4);
+    font-size: 40px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.Center {
+    margin-top: 20px;
+    margin-left: 90px;
+    font-size: 20px;
+}
+
+.flex {
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+}
+
+.flex div {
+    width: calc(100% / 5);
+    text-align: center;
+    padding: 20px;
+}
+
+.phon {
+    margin-left: 10px;
+}
+
+.phon p {
+    margin-left: 20px;
+}
+
+.services {
+    text-align: center;
+}
+
+.service h1 {
+    color: rgb(5, 4, 4);
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+/* End of service */
+
+/* Start of service */
+.service {
+    padding: 20px;
+}
+
+.service h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.service .ser {
+    width: 25%;
+    border: 2px solid #C8102E; /* Red border for services */
+    border-radius: 7px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 70px;
+}
+
+.service .ser img {
+    width: 350px;
+    border: solid 3px black;
+}
+
+.service .ser p.title {
+    font-size: 30px;
+}
+
+.service .ser p.dis {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+
+.service .ser a {
+    display: block;
+    background-color: #C8102E; /* Red color */
+    color: white;
+    width: 25%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.service a:hover {
+    background-color: #29b3d8;
+    text-decoration: underline;
+    transition: .6s;
+}

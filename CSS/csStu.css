@@ -1,0 +1,177 @@
+body {
+    background-image: url("login.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+form { background-color: rgba(255, 255, 255, 0.8);
+     border-radius: 10px;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+     padding: 30px;
+     max-width: 500px;
+     margin: 0 auto;
+     margin-top: 100px;
+      padd.flex2 { 
+        display:flex;
+     }
+     }
+h1 {
+    text-align: center;
+    margin-top: 0;
+    color: #800000;
+
+    /* Maroon */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #37474F;
+    font-size: 16px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #37474F;
+    background-color: #F5F5F5;
+}
+
+button {
+    background-color: #800000;
+
+    /* Maroon */
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #B71C1C;
+
+    /* Darker Maroon */
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-small {
+    font-size: 14px;
+    color: #757575;
+}
+
+.text-small a {
+    color: #37474F;
+}
+
+.text-small a:hover {
+    color: #263238;
+    text-decoration: underline;
+}
+
+.navigation .login {
+    width: 100px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 60px;
+    transition: .5s;
+}
+
+.loggg {
+    color: white;
+    outline: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 88%;
+    height: 7%;
+    padding: 10px 100px;
+    background: #800000;
+
+    /* Maroon */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background-color: #800000;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scalex(0);
+    transition: transform .3s;
+}
+
+.navigation a:hover::after {
+    transform: scalex(1);
+}
+
+.logo {
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+}
+
+.admi {
+    display: flex;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.Register {
+    margin-left: 200px;
+}
+
+.video {
+    width: 100%;
+    height: 50px;
+    background-color: #D9D9D9;
+
+    /* Light Greystone */
+}

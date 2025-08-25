@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.flex {
+   display: flex;
+   margin-top: 50px;
+   margin-left: 250px;
+}
+
+/* start of navbar */
+.navbar {
+    background-color: #800000; /* Maroon */
+    padding: 20px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar ul li a:hover {
+    color: #D9D9D9; /* Light Greystone */
+}
+
+/* end of navbar */
+
+/* start of Header */
+.header {
+    height: 90vh;
+    background: url(pic4.jpg) no-repeat;
+    background-size: 100% 90vh;
+    padding: 20px;
+    height: 7%;
+}
+
+.header h1 {
+    color: white;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+/* end of Header */
+
+/* start of products */
+.products {
+    margin-top: 130px;
+    padding: 20px;
+    margin-left: 120px;
+}
+
+.products h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.products .pro {
+    width: 25%;
+    border: 2px solid #737373; /* Dark Greystone */
+    border-radius: 7px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 70px;
+}
+
+.products .pro img {
+    width: 50%;
+    border-radius: 50%;
+    border: solid 3px #800000; /* Maroon */
+}
+
+.products .pro p.title {
+    font-size: 30px;
+}
+
+.products .pro p.deasc {
+    font-size: 18px;
+    color: #D9D9D9; /* Light Greystone */
+    margin-bottom: 15px;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+
+.products .pro a {
+    display: block;
+    background-color: #800000; /* Maroon */
+    color: white;
+    width: 35%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+/* end of products */
+
+/* start of footer */
+.footer {
+   height: 100px;
+   background: #800000; /* Maroon */
+}
+
+.footer h3 {
+    color: white;
+}
+
+/* end of footer */
+
+.logo {
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+}
+
+header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 10px 100px;
+   background: #800000; /* Maroon */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 99;
+}
+
+.navigation a {
+   position: relative;
+   font-size: 1.1em;
+   color: #fff;
+   text-decoration: none;
+   font-weight: 500;
+   margin-left: 40px;
+}
+
+.navigation a::after {
+   content: '';
+   position: absolute;
+   left: 0;
+   bottom: -6px;
+   width: 100%;
+   height: 3px;
+   background: #fff;
+   border-radius: 5px;
+   transform: scalex(0);
+   transition: transform .3s;
+}
+
+.navigation a:hover::after {
+   transform: scalex(1);
+}
+
+.navigation .login {
+   width: 340px;
+   height: 50px;
+   background: transparent;
+   border: 1px solid #fff;
+   outline: none;
+   border-radius: 6px;
+   cursor: pointer;
+   font-size: 1.1em;
+   color: #fff;
+   font-weight: 500;
+   margin-left: 40px;
+   transition: .5s;
+}
+
+.navigation .login:hover {
+   background: #fff;
+   color: #162938;
+}
+
+.imgs {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   margin-left: 20px;
+}
+
+.icon {
+    color: white;
+    margin-left: 1100px;
+}
+
+body {
+   background-color: #D6D6CE; /* Light Gray */
+}
